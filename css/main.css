@@ -1,0 +1,39 @@
+.first-content{
+    /* The float property relies on an element having a display value of block, and may alter an element’s default
+    display value if it is not already displayed as a block-level element.
+    Try to comment the float property to see the default behavior of section as block element.*/
+    float: right;
+
+
+    /* When we float an element, we take it out of the normal flow of the HTML document. This causes the width of that
+    element to default to the width of the content within it. If this behavior is not desired, It can be corrected by
+    adding a fixed width property value to each column. Besides, you can still use margin property to add more space
+    between elements.
+
+    Try to comment out the width property to see that effect. */
+    width: 63%;
+    margin: 0 1.5%;
+    border: 1px solid red;
+}
+
+aside{
+    /* The float property relies on an element having a display value of block, and may alter an element’s default
+    display value if it is not already displayed as a block-level element.
+    Try to comment the float property to see the default behavior of section as block element.*/
+   float: left;
+
+    /* When we float an element, we take it out of the normal flow of the HTML document. This causes the width of that
+    element to default to the width of the content within it. If this behavior is not desired, It can be corrected by
+    adding a fixed width property value to each column. Besides, you can still use margin property to add more space
+    between elements
+
+    Try to comment out the width property to see that effect.*/
+    width: 30%;
+    margin: 0 1.5%;
+    border: 1px solid green;
+}
+
+header,
+footer{
+    border: 1px solid blue;
+}
