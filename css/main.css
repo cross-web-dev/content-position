@@ -36,4 +36,7 @@ aside{
 header,
 footer{
     border: 1px solid blue;
+    /* It is important that this clear be applied to an element appearing after the floated elements, not before, to
+    return the page to its normal flow.*/
+    clear: both;
 }
