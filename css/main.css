@@ -37,3 +37,26 @@ header,
 footer{
     border: 1px solid blue;
 }
+
+/*pseudo elements create HTML elements dynamically. To prove that, uncomment width,height,outline and fill the content
+with any text.*/
+.group:before,
+.group:after {
+/*    content: "This content is added from CSS";*/
+    content: "";
+    display: table;
+
+/*  width: 50%;
+    height: 10%;
+    outline: 2px solid yellow;*/
+}
+
+/* If you did not clear the float effect after the parent element, pitfalls of float will remain.*/
+.group:after {
+  clear: both;
+}
+
+.group {
+  clear: both;
+  *zoom: 1;
+}
